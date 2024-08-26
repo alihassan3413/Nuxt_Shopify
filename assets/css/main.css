@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white overflow-x-hidden;
+}
+
+.section {
+  @apply px-4 md:px-7 lg:px-12 xl:px-16 mx-auto w-full float-none;
+}
